@@ -1,0 +1,235 @@
+body {
+	background: #c74341 url(background.png) no-repeat bottom left;
+	min-width: 1036px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+}
+
+#container h1 {
+   display: block;
+   width: 100%;
+   height: 0;
+   margin-left: 130px;
+   text-indent: -9999px;
+}
+
+.logo {
+    display: block;
+    width: 600px;
+    height: 143px;
+    margin-left: -100px;
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    margin-bottom: -5px;
+}
+
+#accordion {
+   position: relative;
+   height: 177px;
+   background: #fff0d9;
+   overflow: hidden;
+}
+
+#accordion li  {
+   position: relative;
+   width: 72px; height: 177px;
+   float: left;
+   border-right: #fff0d9 1px solid;
+   background: white;
+   overflow: hidden;
+   cursor: pointer;
+}
+
+#accordion h3 {
+   position: absolute;
+   top: 0; left: 0;
+   text-indent: -9999px;
+   width: 72px; height: 177px;
+}
+
+#accordion p {
+   width: 215px;
+   margin-left: 85px;
+   margin-top: 50px;
+   padding-top: 40px;
+   color: #5f5f5f;
+   font-size: 15px;
+   line-height: 18px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   letter-spacing: 0pt;
+
+}
+
+#github h3 {
+   background: url(github.gif) no-repeat white;
+}
+
+#github p {
+   background: url(github_over.gif) no-repeat;
+}
+
+#businessCard h3 {
+   background: url(businessCard.gif) no-repeat;
+}
+
+#businessCard p {
+   background: url(businessCard-over.gif) no-repeat;
+}
+
+#videoTapes h3 {
+   background: url(videoTapes.gif) no-repeat;
+}
+
+#videoTapes p {
+   background: url(videoTapes-over.gif) no-repeat;
+}
+
+#email h3 {
+   background: url(email_btn.gif) no-repeat;
+}
+#email p {
+   background: url(email_over_bg.gif) no-repeat;
+}
+#email a {
+   text-decoration: none;
+}
+
+#contact h3 {
+   background: url(contact_btn.gif) no-repeat;
+}
+
+#contact p {
+   background: url(contact_over_bg.gif) no-repeat;
+}
+
+/* END */
+
+#github {
+   margin-left: 206px;
+}
+
+#content {
+   position: relative;
+   width: 790px;
+   padding-bottom: 135px;
+}
+
+
+#primary_content {
+   padding-left: 205px;
+   padding-top: 30px;
+   padding-right: 40px;
+   width: 325px;
+}
+
+#primary_content p,
+#primary_content span,
+#primary_content em {
+   color: #657381;
+   font-size: 12px;
+   line-height: 16px;
+   letter-spacing: 1px;
+}
+
+#primary_content h2 {
+   line-height: 33px;
+   text-decoration: none;
+   font-size: 35px;
+   margin-bottom: 5px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   letter-spacing: 1px;
+}
+
+#primary_content span.title.current {
+   display: block;
+   font-size: 15px;
+   margin-bottom: 60px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+}
+
+#primary_content h2 a,
+#primary_content h1,
+#primary_content h2,
+#primary_content h3 {
+   color: #00aaf0;
+}
+
+#primary_content h3 {
+   margin-top: 38px;
+   margin-left: -213px;
+   padding-left: 3px;
+   border-left: #262b30 210px solid;
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   letter-spacing: 1px;
+   margin-bottom: 12px;
+}
+
+#primary_content h5,
+span.location {
+   display: block;
+   color: #9eaebe;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   font-size: 13px;
+   letter-spacing: 1px;
+}
+
+#primary_content span.title {
+
+}
+
+#positions li {
+   position: relative;
+   margin-bottom: 20px;
+}
+
+#positions li em {
+   display: block;
+   margin-bottom: 4px;
+}
+
+#positions li span.date {
+	position: absolute;
+	color: #373e46;
+	font-family: 'Open Sans', sans-serif, Helvetica;
+	top: -1px;
+	left: -90px;
+	width: 85px;
+}
+
+#secondary_content {
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 190px;
+   background: #262b30;
+   padding-top: 144px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 40px;
+   color: #9eaebe;
+   font-size: 11px;
+   overflow: hidden;
+}
+
+#secondary_content h5 {
+   color: #00aaf0;
+   font-size: 18px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   margin-bottom: 8px;
+   letter-spacing: 1px;
+}
+
+#secondary_content ul li h6 {
+   color: #9eaebe;
+   font-size: 13px;
+   font-family: 'Open Sans', sans-serif, Helvetica;
+   letter-spacing: 1px;
+   line-height: 23px;
+}
+
+#secondary_content ul li p {
+   color: #657381;
+   line-height: 15px;
+   margin-bottom: 15px;
+}
+
