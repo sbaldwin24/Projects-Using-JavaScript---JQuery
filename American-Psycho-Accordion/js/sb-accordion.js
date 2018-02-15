@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function () {
   //Here comes some magical jQuery ;)
 
   $("#container h1").css("opacity", "0");
@@ -12,26 +12,26 @@ $(document).ready(function() {
       opacity: "0.01"
     },
     500,
-    function() {
+    function () {
       $("#accordion").animate(
         {
           width: "100%"
         },
         700,
-        function() {
+        function () {
           $("#primary_content").animate(
             {
               opacity: "1"
             },
             300,
-            function() {
+            function () {
               $("#secondary_content").animate(
                 {
                   height: secondaryHeight,
                   opacity: "1"
                 },
                 300,
-                function() {
+                function () {
                   $("#container h1")
                     .stop()
                     .animate({
@@ -53,7 +53,7 @@ $(document).ready(function() {
       .appendTo(elem);
   }
 
-  $("#videoTapes").mouseenter(function() {
+  $("#videoTapes").mouseenter(function () {
     var audio = $("<audio />", {
       autoPlay: "autoplay"
     });
@@ -68,7 +68,7 @@ $(document).ready(function() {
     audio.appendTo("body");
   });
 
-  $("#accordion li").on("click", function() {
+  $("#accordion li").on("click", function () {
     window.open(
       $(this)
         .find("a")
@@ -82,7 +82,7 @@ $(document).ready(function() {
    * hover is deprecated
    */
   $("#accordion > li").hover(
-    function() {
+    function () {
       console.log("moto");
       $("#content, h1")
         .stop()
@@ -97,24 +97,24 @@ $(document).ready(function() {
       $(this)
         .stop()
         .animate(
-          {
-            width: "318px"
-          },
-          300,
-          function() {}
+        {
+          width: "318px"
+        },
+        300,
+        function () { }
         );
       $(this)
         .find("h3")
         .stop()
         .animate(
-          {
-            backgroundPosition: "-72px"
-          },
-          300,
-          function() {}
+        {
+          backgroundPosition: "-72px"
+        },
+        300,
+        function () { }
         );
     },
-    function() {
+    function () {
       $(".morph")
         .stop()
         .animate({ color: "#00aaf0" }, 400);
@@ -127,21 +127,21 @@ $(document).ready(function() {
       $(this)
         .stop()
         .animate(
-          {
-            width: "72px"
-          },
-          300,
-          function() {}
+        {
+          width: "72px"
+        },
+        300,
+        function () { }
         );
       $(this)
         .find("h3")
         .stop()
         .animate(
-          {
-            backgroundPosition: "0px"
-          },
-          300,
-          function() {}
+        {
+          backgroundPosition: "0px"
+        },
+        300,
+        function () { }
         );
     }
   );
